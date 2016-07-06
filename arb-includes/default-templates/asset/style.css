@@ -1,0 +1,254 @@
+body {
+	font-size: 15px;
+	font-family: "open-sans", sans-serif;
+}
+a {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* general css */
+.container {
+	width: 90%;
+}
+#header, #footer {
+	background: #444;
+	color: #fafafa;
+}
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+.block-title {
+	display: block;
+	margin-bottom: 30px;
+}
+.text-center {
+    text-align: center;
+}
+
+/* header-nav */
+.header-nav li {
+    display: inline-block;
+    margin: 5px 0;
+}
+.header-nav li a {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #eee;
+    display: block;
+    padding: 7px 12px;
+}
+.header-nav li a:hover {
+	background: #373737;
+}
+.sitename {
+    color: #fafafa;
+    font-size: 18px;
+    display: block;
+    margin: 10px 0;
+}
+.sitename i {
+	font-size: 23px;
+}
+
+/* content */
+#content {
+	min-height: 80vh;
+}
+.txt_msg {
+    background: #ddd;
+    color: #444;
+    border: 1px solid #bcbcbc;
+    text-align: center;
+    padding: 15px;
+}
+
+/* sidebar */
+.side-nav li {
+    display: block;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.widget, .post-area {
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'open-sans', sans-serif;
+    color: #444;
+}
+.widget li {
+    display: block;
+    margin: 10px 0px;
+}
+.widget .side-nav a {
+    color: #444;
+    display: block;
+}
+.widget .side-nav a:hover {
+    color: #079BFC;
+    font-weight: bold;
+}
+
+/* main content */
+.list-table li {
+    overflow: hidden;
+    margin: 0 !important;
+}
+.list-li div {
+    padding: 5px 7px;
+}
+.list-li div:last-child {
+    text-align: center;
+}
+.list-li div:last-child a {
+    color: red;
+}
+.list-li:nth-child(odd) {
+    background: #ccc;
+}
+.list-li:nth-child(even) {
+    background: #ddd;
+}
+.list-li.list-header {
+    background: #444;
+    color: #fff;
+}
+/* footer */
+#footer {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+#footer span {
+	display: block;
+	margin: 5px 0;
+}
+
+/* form */
+.form-group {
+    display: block;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.form-input {
+    display: block;
+    padding: 12px;
+    margin: 0 auto;
+    width: 75%;
+    border: 1px solid #bcbcbc;
+}
+.form-group label {
+    display: block;
+    margin: 5px 0;
+    color: #444;
+}
+.form-group-submit {
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.submit-btn {
+    border: 1px solid #444;
+    padding: 7px 15px;
+    margin: 0 auto;
+    display: block;
+    background: #444;
+    width: 55%;
+    color: #eee;
+    font-size: 15px;
+}
+.submit-btn:hover {
+    background: #272727;
+}
+.mini-nav {
+    background: #ddd;
+    padding: 7px 10px;
+    text-align: center;
+}
+.title-block {
+    display: block;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.description-data p {
+	margin-top: 0;
+	line-height: 20px;
+}
+
+/*content style*/
+#form .form-group input, #form .form-group textarea {
+    border: 1px solid #777;
+    padding: 7px;
+    width: 100%;
+}
+#form .submit {
+    background: #444;
+    color: #fff;
+    width: 15% !important;
+}
+#form .submit:hover {
+    background: #333;
+}
+.confirmation {
+    display: inline-block;
+    background: #ddd;
+    border: 1px solid #bcbcbc;
+    padding: 20px;
+}
+.confirmation label {
+    display: block;
+}
+.confirmation input {
+    display: inline;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 60px;
+}
+
+/* login box */
+.login-box {
+    border: 1px solid #ddd;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+.login-box h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+}
+.login-box p {
+    color: #555;
+}
+.login-box a {
+    color: #ff0000;
+}
+.login-box h3 i {
+    display: block;
+    padding: 10px;
+    transform: scale(1.5);
+    margin-top: 10px;
+}
+.login-box #header {
+    text-align: center;
+    padding: 10px;
+}

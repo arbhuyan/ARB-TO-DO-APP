@@ -1,0 +1,6 @@
+.confirmation {
+    display: inline-block;
+    background: #abcdef;
+    border: 1px solid #abcdef;
+    padding: 20px;
+}
